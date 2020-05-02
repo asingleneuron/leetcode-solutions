@@ -29,3 +29,8 @@ Output: 0
 
 # Solution:
 
+| Approach | Time Complexity |
+|----------|:----------------|
+| Naive    |  O (m * n)      |
+| Using dictionary | O (m + n) |
+
