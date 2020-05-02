@@ -1,6 +1,5 @@
-# MAY-LEETCODING-CHALLENGE
+# [MAY-LEETCODING-CHALLENGE](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/)
 
-https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/
 
 
 | Problems        | Explanation           | Solutions  |
