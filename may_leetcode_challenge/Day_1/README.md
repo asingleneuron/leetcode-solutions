@@ -32,6 +32,3 @@ I solved this problem by using following approaches :
 | Binary Search Recursive | O (log n) | 
 | Binary Search Iterative | O (log n)  | 
 
-1. Linear Search  O(n)
-2. Binary Search Recursive  O( log n)
-3. Binary Search Iterative  O( log n)
