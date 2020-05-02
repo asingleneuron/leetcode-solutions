@@ -26,7 +26,17 @@ Note:
 
 class Solution:
     def numJewelsInStones_using_dict(self, J: str, S: str) -> int:
-        # print(S)
+        '''
+            This is faster than naive approach
+            We are creating a dictionay which has stones as a key and number of times that stones appears is in the value.
+            Assume we have n stones in S, so the time complexity of creating the dictionary will be O (n)
+            
+            Now we pick each jewel and look for the jewel occurences in dictionary.
+            Assume we have m jewels in J, so the time compelxity of finding occurences of all the jewels is O(m)
+            
+            Overall Time complexity : O (m + n)
+            
+        '''
         number_of_jewels = 0
         stones_dictionary = {}
         for s in S:
@@ -35,9 +45,22 @@ class Solution:
         for j in J:
             number_of_jewels += stones_dictionary.setdefault(j, 0)
         return number_of_jewels
+    
 
     def numJewelsInStones(self, J: str, S: str) -> int:
-        # print(S)
+        '''
+            This is a naive approach. 
+            Where we pick one jewel from J and count all of the occurences in S 
+            
+            Time Complexity : O ( m * n )
+            Explanation: 
+                Assume m is the number of jewels in J, and n is the number of stones in S
+                So will be counting occurences of jewel in S, to count all of the occurences, we need to look for all of the stones 
+                starting from index 0 to index n-1. So the time complexity for this will be O (n)
+                
+                We need to do this m time, because we have m distinct types of jewels. So multiplying m * n
+            
+        '''        
         number_of_jewels = 0
         for j in J:
             number_of_jewels += S.count(j)
