@@ -4,6 +4,15 @@
 # def isBadVersion(version):
 
 class Solution:
+    
+    def linearSearch(self, n):
+        """
+            Doing a naive linear search starting from 1 to n. 
+            Time comlexity : O(n)
+        """
+        for i in range(1, n+1):
+            if isBadVersion(i):
+                return i
 
     def binarySearchUtil(self, low, high):
         if low > high:
@@ -21,13 +30,9 @@ class Solution:
         :rtype: int
 
         Approach:
-            I will use the binary search approach to find out the first bad version.
-            n = 5
-            1 2 3 4 5
-            mid = n//2
-            if mid==bad and mid-1 != bad , we found our first bad version
-            if mid is bad then go to the first half
-            else go to the second half
+            Doing binary search to find out the first bad version.
+        
+        Time complexity: O( log n)
         """
         return self.binarySearchUtil(1, n)
 
@@ -37,14 +42,9 @@ class Solution:
         :rtype: int
 
         Approach:
-            I will use the binary search approach to find out the first bad version.
-            n = 5
-            1 2 3 4 5
-            mid = n//2
-            if mid==bad and mid-1 != bad , we found our first bad version
-            if mid is bad then go to the first half
-            else go to the second half
-
+           Doing binary search to find out the first bad version
+        
+        Time Complexity: O(log n)
         """
         low = 1
         high = n
@@ -62,8 +62,10 @@ class Solution:
         return low
 
     def firstBadVersion(self, n):
+        
+#         return self.linearSearch(n)
+#         return self.firstBadVersion_recursive(n)
         return self.firstBadVersion_iterative(n)
-        # return self.firstBadVersion_recursive(n)
 
 
 
