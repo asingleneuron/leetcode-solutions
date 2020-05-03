@@ -34,8 +34,14 @@ class Solution:
             Now we pick each jewel and look for the jewel occurences in dictionary.
             Assume we have m jewels in J, so the time compelxity of finding occurences of all the jewels is O(m)
             
-            Overall Time complexity : O (m + n)
-            
+            Overall Time complexity : 
+                O (m + n)
+                    n and m can have maximum 50 (same number of stones)
+                    so m == n, 
+                O ( n + n ) 
+                O ( 2n )
+                
+                overall time complexity is O (n)
         '''
         number_of_jewels = 0
         stones_dictionary = {}
