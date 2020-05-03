@@ -32,5 +32,5 @@ Output: 0
 | Approach | Time Complexity |
 |----------|:----------------|
 | Naive    |  O (m * n)      |
-| Using dictionary | O (m + n) |
+| Using dictionary | O (n) |
 
