@@ -30,20 +30,15 @@ class Solution:
 
         Approach:
             This approach will use sorting. Sort the nums list in ascending order.
-            Go through the list and see if current number and current+ len(nums)/2 are same if yes we got the majority
-            element.
+            As we know majority element appears more than len(nums) / 2. So just return nums[len(nums)//2] element.
 
         Time complexity: O (nlogn)
         '''
 
 
         half = len(nums) // 2
-        nums = sorted(nums)
-        # print(nums)
-        for i in range(0, half + 1):
-            # print(i,i+half,nums[i],nums[i+half])
-            if nums[i] == nums[i + half]:
-                return nums[i]
+        nums.sort()
+        return nums[half]
 
     def majorityElement(self, nums: List[int]) -> int:
         return self.majorityElement_using_counter(nums)
