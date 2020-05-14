@@ -18,6 +18,8 @@
 | Day_9 (Valid perfect square) | [problem statement](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_9/README.md) | [code](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_9/valid_perfect_square.py) |
 | Day_10 (Find the town judge) | [problem statement](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_10/README.md) | [code](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_10/find_the_town_judge.py) |
 | Day_11 (Flood Fill) | [problem statement](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_11/README.md) | [code](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_11/flood_fill.py) |
+| Day_12 (Single non duplicate element) | [problem statement](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_12/README.md) | [code](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_12/singlenonduplicate.py) |
+| Day_13 (Remove k digits) | [problem statement](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_13/README.md) | [code](https://github.com/asingleneuron/leetcode-solutions/blob/master/may_leetcode_challenge/Day_13/remove_k_digits.py) |
 
 
 
